@@ -23,7 +23,7 @@ module.exports = function(config) {
 
     // Concurrency level
     // how many browser should be started simultaneous
-    concurrency: 5,
+    concurrency: 1,
 
     preprocessors: {
       'test/e2e/**/*.js': ['browserify']
